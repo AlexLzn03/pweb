@@ -1,9 +1,5 @@
 body {
-    background-color: white;
-}
-
-.white {
-    color: white;
+    background-color: rgb(212, 211, 211);
 }
 
 .bloco {
@@ -11,7 +7,7 @@ body {
     color: yellow;
     display: flex;
     flex-direction: column;
-    margin: 22%;
+    margin: 30%;
     margin-top: 0%;
     margin-bottom: 0%;
     padding: 5px;
@@ -20,26 +16,38 @@ body {
     font-size: 70%;
 }
 
+.white {
+    color: white;
+    font-size: 85%;
+}
+
+p {
+    margin: 5%;
+    margin-top: -1%;
+    margin-bottom: 3%;
+}
+
 .blocodentro {
     background-image: linear-gradient(to top, rgb(44, 1, 44), rgb(121, 3, 121));
     color: white;
     display: flex;
     flex-direction: column;
     margin: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
     margin-top: 0%;
-    margin-bottom: 2%;
     padding: 5px;
     text-align: center;
     border-radius: 5px;
-    font-size: 80%;
+    font-size: 90%;
 }
 
 .inputuser {
     border: none;
     border-radius: 3px;
     outline: none;
-    width: 80%;
-    font-size: 19px;
+    width: 75%;
+    font-size: 18px;
     letter-spacing: 1px;
 }
 .inputuser:focus {
@@ -48,9 +56,11 @@ body {
 
 .votar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
     margin-top: 2%;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: 1%;
     text-align: top;
 }
@@ -79,4 +89,17 @@ body {
     padding-left: 14.5%;
     padding-right: 14.5%;
     margin-bottom: 3%;
+}
+
+.baixo {
+    color: white;
+    font-size: 40%;
+    margin-top: -2%;
+}
+ 
+img {
+    width: 60%;
+    margin-top: -2%;
+    margin-bottom: 8%;
+    color: white;
 }
