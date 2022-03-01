@@ -1,0 +1,82 @@
+body {
+    background-color: white;
+}
+
+.white {
+    color: white;
+}
+
+.bloco {
+    background-image: linear-gradient(to top, rgb(121, 3, 121), rgb(44, 1, 44));
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    margin: 22%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 5px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 70%;
+}
+
+.blocodentro {
+    background-image: linear-gradient(to top, rgb(44, 1, 44), rgb(121, 3, 121));
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 80%;
+}
+
+.inputuser {
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    width: 80%;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+.inputuser:focus {
+    outline-style: outset;
+}
+
+.votar {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    text-align: top;
+}
+
+.votarbox {
+    background-image: linear-gradient(to top, rgb(110, 185, 255), rgb(57, 110, 255));
+    border: 7px solid rgb(39, 71, 255);
+    border-radius: 5px;
+    width: 28%;
+}
+
+#submit {
+    background-color: rgb(44, 1, 44);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 8%;
+    padding-left: 14%;
+    padding-right: 14%;
+    margin-bottom: 4%;
+}
+#submit:hover {
+    background-color: rgb(26, 1, 26);
+    padding: 8.5%;
+    padding-left: 14.5%;
+    padding-right: 14.5%;
+    margin-bottom: 3%;
+}
