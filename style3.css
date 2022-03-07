@@ -103,22 +103,11 @@ img {
     margin-bottom: 10%;
 }
 
-/* Diminui a font-size do votarbox para caber dentro do quadrado */
-
 @media screen and (max-width: 1070px) {
     .votarbox {
         font-size: 75%;
     }
 }
-
-/* ---------------------------------------------------------------
-Alterar as medidas votarbox para ajustar entre outras no 820px
-bloco alterado
-bdentro alterado
-inputuser
-submit / holver
-img
-*/
 
 @media screen and (max-width: 820px) {
     .bloco {
@@ -181,9 +170,6 @@ img
         margin-top: -2%;
     }
 }
-
-/* ---------------------------------------------------------------
- Medidas para 500px */
 
 @media screen and (max-width: 500px) {
     .bloco {
