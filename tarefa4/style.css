@@ -1,1 +1,8 @@
+body {
+    background-color: rgb(61, 61, 61);
+}
 
+.bloco {
+    text-align: center;
+    margin-top: 2%;
+}
