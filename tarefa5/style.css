@@ -1,0 +1,56 @@
+body {
+    background-color: gray;
+}
+
+.bloco {
+    background-color: green;
+    text-align: center;
+}
+
+
+.principal {
+    background-color: white;
+    border-radius: 15px;
+    margin: 3%;
+
+}
+img {
+    width: 60%;
+    margin-top: 1%;
+}
+.pratos {
+    display: flex;
+    flex-direction: row;
+}
+.pratoum {
+    background-color: rgb(214, 214, 214);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+    margin: 5%;
+    border-radius: 9px;
+}
+.pratodois {
+    background-color: rgb(214, 214, 214);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+    margin: 5%;
+    border-radius: 9px;
+}
+.pratotres {
+    background-color: rgb(214, 214, 214);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+    margin: 5%;
+    border-radius: 9px;
+}
+
+
+.acompanhamento {
+    background-color: white;
+    margin: 3%;
+}
+.acompanha {
+
+}
+
+.dados {
+    background-color: white;
+    margin: 3%;
+}
