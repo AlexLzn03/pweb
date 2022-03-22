@@ -1,22 +1,27 @@
 body {
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
 }
 
 .bloco {
-    background-color: green;
+    background-color: rgb(255, 255, 255);
     text-align: center;
+    font-size: 4px;
 }
 
 
 .principal {
-    background-color: white;
-    border-radius: 15px;
+    background-color: rgb(190, 190, 190);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
     margin: 3%;
 
 }
 img {
     width: 60%;
     margin-top: 1%;
+}
+.corVerde {
+    color: green;
 }
 .pratos {
     display: flex;
@@ -43,14 +48,58 @@ img {
 
 
 .acompanhamento {
-    background-color: white;
+    background-color: rgb(190, 190, 190);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
     margin: 3%;
 }
 .acompanha {
-
+    display: flex;
+    flex-direction: row;
+}
+.acompanhaum {
+    background-color: rgb(214, 214, 214);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+    margin: 5%;
+    border-radius: 9px;
+}
+.acompanhadois {
+    background-color: rgb(214, 214, 214);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+    margin: 5%;
+    border-radius: 9px;
+}
+.acompanhatres {
+    background-color: rgb(214, 214, 214);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+    margin: 5%;
+    border-radius: 9px;
 }
 
 .dados {
-    background-color: white;
+    background-color: rgb(190, 190, 190);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
     margin: 3%;
+}
+.inputuser {
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    height: 8px;
+    width: 80%;
+    margin: 1%;
+    font-size: 6px;
+    letter-spacing: 1px;
+}
+#submit {
+    background-color: #1e90ff;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    height: 13px;
+    width: 94%;
+    font-size: 7px;
 }
