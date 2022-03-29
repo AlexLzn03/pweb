@@ -16,15 +16,15 @@ function calc(){
         style: 'currency',
         currency: 'BRL',
     });
-
+    
     var text = "Caro(a) " + document.querySelector('#nome').value;
-    document.querySelector('#exit').innerHTML = text;
+    document.querySelector('#exitname').innerHTML = text;
 
-    var text1 = "Seus pedidos a seguir. <br><br> O seu pedido é: ";
-    document.querySelector('#exit1').innerHTML = text1;
+    var text1 = "<br>Seguem os dados do seu pedido.<p>O seu pedido é: ";
+    document.querySelector('#exitorder').innerHTML = text1;
 
     for (let input of quantities) {
-        saida.innerHTML += `Pratos: ${prods[input.id-1].name}  - Preço: ${formatter.format(prods[input.id-1].price)} - Quantidade unitaria: ${input.value} </br>`
+        saida.innerHTML += `Pratos: ${prods[input.id-1].name}  - Preço: ${formatter.format(prods[input.id-1].price)} - Quantidade: ${input.value} </br>`
     }
 
     var sum = [30, 25, 22, 10, 8, 12]
