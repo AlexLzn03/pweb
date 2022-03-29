@@ -7,13 +7,24 @@
     <title>Food</title>
     <link rel="shortcut icon" href="assets/coxa.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        input[type=number]::-webkit-inner-spin-button,
+           input[type=number]::-webkit-outer-spin-button {
+               -webkit-appearance: none;
+               margin: 0;
+           }
+    input[type=number]{
+        -moz-appearance: textfield;
+        }
+    </style>
 </head>
 <body>
     <div class="bloco">
         <h1>Menu - Faça A Sua Escolha</h1>
 
         <div class="principal">
-            <h1>Prato Principal</h1>
+            <br><h1>Prato Principal</h1>
             <h2>Todos os pratos acompanham arroz, feijão e a sobremesa do dia</h2>
 
             <div class="pratos">
@@ -63,13 +74,13 @@
         </div>
 
         <div class="principal">
-            <h1>Acompanhamentos</h1>
+            <br><h1>Acompanhamentos</h1>
             <h2>Porções para uma pessoa</h2>
 
             <div class="pratos">
                 <div class="pratoum">
                     <img src="assets/pratoss.jpg" alt="macarrão">
-                    <h2>Bife com batatas</h2>
+                    <h2>Farofa</h2>
                     <div class="corVerde">
                         <h1>R$ 10,00</h1>
                         <div class="quantity buttons_added">
@@ -82,7 +93,7 @@
                 </div>
                 <div class="pratodois">
                     <img src="assets/pratoss.jpg" alt="macarrão">
-                    <h2>Bife com batatas</h2>
+                    <h2>Salada</h2>
                     <div class="corVerde">
                         <h1>R$ 8,00</h1>
                         <div class="quantity buttons_added">
@@ -95,7 +106,7 @@
                 </div>
                 <div class="pratotres">
                     <img src="assets/pratoss.jpg" alt="macarrão">
-                    <h2>Bife com batatas</h2>
+                    <h2>Torresmo</h2>
                     <div class="corVerde">
                         <h1>R$ 12,00</h1>
                         <div class="quantity buttons_added">
@@ -110,7 +121,7 @@
         </div>
 
         <div class="dados">
-            <h1>Dados Pessoais</h1>
+            <br><h1>Dados Pessoais</h1>
                 <form action="">
                     <div class="colocardados">
                         <input type="text" name="nome" id="nome" class="inputuser" placeholder="Digite seu nome" required>

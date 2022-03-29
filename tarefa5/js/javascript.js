@@ -1,10 +1,10 @@
 var prods = [
-    { id: 1, name: "Produto 1", price: 30.00 },
-    { id: 2, name: "Produto 2", price: 25.00 },
-    { id: 3, name: "Produto 3", price: 22.00 },
-    { id: 4, name: "Produto 4", price: 10.00 },
-    { id: 5, name: "Produto 5", price: 8.00 },
-    { id: 6, name: "Produto 6", price: 12.00 },
+    { id: 1, name: "Bife com batata", price: 30.00 },
+    { id: 2, name: "Coxa de Frango Crocante", price: 25.00 },
+    { id: 3, name: "Carne de Panela", price: 22.00 },
+    { id: 4, name: "Farofa", price: 10.00 },
+    { id: 5, name: "Salada", price: 8.00 },
+    { id: 6, name: "Torresmo", price: 12.00 },
 ];
 
 function calc(){
@@ -24,7 +24,7 @@ function calc(){
     document.querySelector('#exit1').innerHTML = text1;
 
     for (let input of quantities) {
-        saida.innerHTML += `Produto: ${prods[input.id-1].name}  - Preço: ${formatter.format(prods[input.id-1].price)} - Quantidade: ${input.value} </br>`
+        saida.innerHTML += `Pratos: ${prods[input.id-1].name}  - Preço: ${formatter.format(prods[input.id-1].price)} - Quantidade unitaria: ${input.value} </br>`
     }
 
     var sum = [30, 25, 22, 10, 8, 12]
