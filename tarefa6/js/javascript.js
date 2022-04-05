@@ -23,9 +23,6 @@ function calc(){
     var text1 = "<br>Seguem os dados do seu pedido.<p>O seu pedido é: ";
     document.querySelector('#exitorder').innerHTML = text1;
 
-   
-
-
     var sum = [30, 25, 22, 10, 8, 12]
     var endPrice = 0
     quantSum = 0;
