@@ -1,3 +1,9 @@
+.bloco {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 15px;
+}
+
 /*-----------NavBar-----------*/
 .navbar {
     width: 90%;
@@ -77,19 +83,6 @@ input[type=number]{
 }
 
 /*-----------Botão-----------*/
-button {
-    background-color: #1e90ff;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    border-radius: 3px;
-    border: none;
-    outline: none;
-    height: 40px;
-    width: 94%;
-    font-size: 30px;
- 
-}
-
 .minus {
     background-color: white;
     border: none;
@@ -106,7 +99,7 @@ button {
     border-radius: 3px;
     outline: none;
     padding: 9px;
-    width: 5%;
+    width: 10%;
 }
 
 .plus {
@@ -121,7 +114,7 @@ button {
 
 /*-----------Dados-----------*/
 .dados {
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(230, 230, 230);
     box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     margin: 3%;
@@ -143,4 +136,16 @@ button {
 }
 #email {
     margin-left: 4%;
+}
+
+/*-----------Calcular-----------*/
+button {
+    background-color: #1e90ff;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    margin-left: 3%;
 }
