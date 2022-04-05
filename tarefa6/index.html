@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa 6</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- -----------NavBar----------- -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">Restaurante Boa Comida</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cardápio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reservas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- -----------Carrosel----------- -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/head.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/head.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/head.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- -----------Pratos----------- -->
+
+    <div class="bloco">
+
+        <h1>Menu - Faça A Sua Escolha</h1>
+
+        <div class="principal">
+            <br>
+            <h1>Prato Principal</h1>
+            <h3>Todos os pratos acompanham arroz, feijão e a sobremesa do dia</h3>
+
+            <div class="pratos">
+                <div class="pratoum">
+                    <img src="assets/bife.jpg" alt="macarrão">
+                    <h2>Bife com batatas</h2>
+                    <div class="corVerde">
+                        <h1>R$ 30,00</h1>
+                        <div class="quantity buttons_added">
+                            <input type="button" value="-" class="minus">
+                            <input type="number" step="1" min="0" max="" id="1" name="quantity" value="0" title="Qty"
+                                class="input-text qty text" size="4" pattern="" inputmode="">
+                            <input type="button" value="+" class="plus">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="pratodois">
+                    <img src="assets/frangopassarinho.jpg" alt="macarrão">
+                    <h2>Frango a passarinho</h2>
+                    <div class="corVerde">
+                        <h1>R$ 25,00</h1>
+                        <div class="quantity buttons_added">
+                            <input type="button" value="-" class="minus">
+                            <input type="number" step="1" min="0" max="" id="2" name="quantity" value="0" title="Qty"
+                                class="input-text qty text" size="4" pattern="" inputmode="">
+                            <input type="button" value="+" class="plus">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="pratotres">
+                    <img src="assets/carnedepanela300.jpg" alt="macarrão">
+                    <h2>Carne de panela</h2>
+                    <div class="corVerde">
+                        <h1>R$ 22,00</h1>
+                        <div class="quantity buttons_added">
+                            <input type="button" value="-" class="minus">
+                            <input type="number" step="1" min="0" max="" id="3" name="quantity" value="0" title="Qty"
+                                class="input-text qty text" size="4" pattern="" inputmode="">
+                            <input type="button" value="+" class="plus">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="principal">
+            <br>
+            <h1>Acompanhamentos</h1>
+            <h2>Porções para uma pessoa</h2>
+
+            <div class="pratos">
+                <div class="pratoum">
+                    <img src="assets/farofa.jpg" alt="macarrão">
+                    <h2>Farofa</h2>
+                    <div class="corVerde">
+                        <h1>R$ 10,00</h1>
+                        <div class="quantity buttons_added">
+                            <input type="button" value="-" class="minus">
+                            <input type="number" step="1" min="0" max="" id="4" name="quantity" value="0" title="Qty"
+                                class="input-text qty text" size="4" pattern="" inputmode="">
+                            <input type="button" value="+" class="plus">
+                        </div>
+                    </div>
+                </div>
+                <div class="pratodois">
+                    <img src="assets/salada.jpg" alt="macarrão">
+                    <h2>Salada</h2>
+                    <div class="corVerde">
+                        <h1>R$ 8,00</h1>
+                        <div class="quantity buttons_added">
+                            <input type="button" value="-" class="minus">
+                            <input type="number" step="1" min="0" max="" id="5" name="quantity" value="0" title="Qty"
+                                class="input-text qty text" size="4" pattern="" inputmode="">
+                            <input type="button" value="+" class="plus">
+                        </div>
+                    </div>
+                </div>
+                <div class="pratotres">
+                    <img src="assets/torresmo.jpg" alt="macarrão">
+                    <h2>Torresmo</h2>
+                    <div class="corVerde">
+                        <h1>R$ 12,00</h1>
+                        <div class="quantity buttons_added">
+                            <input type="button" value="-" class="minus">
+                            <input type="number" step="1" min="0" max="" id="6" name="quantity" value="0" title="Qty"
+                                class="input-text qty text" size="4" pattern="" inputmode="">
+                            <input type="button" value="+" class="plus">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------Dados----------- -->
+    <div class="dados">
+        <div class="blocodados">
+            <h1>Dados Pessoais</h1>
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Digite seu nome">
+            </div>
+            <div class="alinhar">
+                <div class="col-12 col-lg-6" id="telefone">
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Telefone</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Telefone">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6" id="email">
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Email</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Email">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------Java----------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="js/jquery-3.6.0.min.js"> </script>
+    <script src="js/quantity.js"> </script>
+</body>
+
+</html>
