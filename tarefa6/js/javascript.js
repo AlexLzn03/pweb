@@ -34,7 +34,7 @@ function calc(){
             var totalCost = sum[i] * quant;
             endPrice += totalCost;
             quantSum += quant;
-            saida.innerHTML += `Pratos: ${prods[i].name}  - Preço: ${formatter.format(prods[i].price)} - Quantidade: ${input.value} </br>`
+            saida.innerHTML = `Pratos: ${prods[i].name}  - Preço: ${formatter.format(prods[i].price)} - Quantidade: ${quant} </br>`
         }
     }   
     calculation.innerHTML += "<br><br>Preço final R$ " + endPrice + ",00";
